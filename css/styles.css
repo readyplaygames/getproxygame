@@ -1,0 +1,178 @@
+
+body{
+	background-color:#1C2A20;/*48663E*/
+	font-family: 'Audiowide', sans-serif;
+	/*font-family: 'PT Sans', sans-serif;*/
+	color: #AACB50;
+	margin: 0;
+    padding: 0;
+}
+
+#container{
+	position:relative;
+	width:95%;
+	/*
+	min-width:579px;
+	max-width:1039px;
+	*/
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main{
+	/*
+	width:100%;
+	float:right;
+	position:relative;
+	top:20px;
+	min-height:300px;
+	*/
+	
+	height:auto;
+	
+	/*background-color:#48663E;*/
+	/*background-image:url(../graphics/sb_bk.gif);
+	border: 1px solid #612;*/
+	padding:1em;
+}
+
+a{
+	color: #BBDC7A;
+	/*
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	*/
+}
+a:link {
+	/*
+    color: 91C934;
+	*/
+	color: #BBDC7A;
+}
+a:visited {
+	/*
+    color: 91C934;
+	*/
+	color: #AACB69;
+}
+
+a:hover {
+    color: #DDFEAC;
+}
+
+a:active {
+    color: #AACB69;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6,label,p{
+	margin:0;	
+}
+h1{
+	text-align:center;
+}
+
+
+/* SCREENSHOTS */
+
+.screenshots, .storelinks{
+	position:relative;
+	width:99%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1em;
+	clear: left;
+	clear: right;
+}
+.screenshots ul , .storelinks ul{
+	/*float:left;*/
+	margin-top: 0.5em;
+	margin-left:auto;
+	margin-right:auto;
+}
+.screenshots ul li, .storelinks ul li{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.screenshots ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:1em;
+	margin:0em 1em;
+}
+.screenshots ul li a img{
+	border-style: solid;
+    border-width: 2px;
+	border-color: #AACB50;
+	width: 196px;
+	height: 120px;
+}
+.screenshots ul li a:hover{
+	color:#2d2d2d;
+}
+
+.top{
+
+	margin: 0 50px 0 50px;
+	
+}
+
+.explanation{
+	display: inline-block;
+}
+
+.video{
+	/*width: 100%;*/
+	
+	display: inline-block;
+	margin-left: 50px;
+	
+}
+
+.benefits ul li{
+	/*
+	display: inline-block;
+	*/
+	list-style-type: none;
+}
+
+.benefitImage{
+	/* TODO */
+	width: 32px;
+	height: 32px;
+}
+
+.storelinks{
+	/* TODO */
+}
+.testimonials{
+	/* TODO */
+}
+
+#ytplayer{
+	border-style:none;
+}
+
+#footer{
+	padding-top:2em;
+	text-align:center;
+}
+
+#mc_embed_signup{
+	padding-top:2em;
+	clear:left; 
+	text-align:center;
+}
+.clear{
+	display:inline;
+}
+
